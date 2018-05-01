@@ -3,7 +3,7 @@
 | List of labs | Stage | Delivery |
 | :------------: | :-----: | :--------: |
 | Lab 1 |   :white_check_mark: |   :white_check_mark: |
-| Lab 2 |    |    |
+| Lab 2 | :white_check_mark: | :white_check_mark: |
 | Lab 3 |    |    |
 | Lab 4 |    |    |
 | Lab 5 |    |    |
