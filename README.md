@@ -1,10 +1,10 @@
 # Programming-in-cpp
 ## Лабораторные работы по С++
-| List of labs | Stage | Delivery |
+| Список лабораторных работ | Состояние | Защита |
 | :------------: | :-----: | :--------: |
 | Lab 1 |   :white_check_mark: |   :white_check_mark: |
-| Lab 2 | :white_check_mark: | :white_check_mark: |
-| Lab 3 |    |    |
+| Lab 2 | :white_check_mark: |  |
+| Lab 3 |  :white_check_mark:  |    |
 | Lab 4 |    |    |
 | Lab 5 |    |    |
 | Lab 6 |    |    |
