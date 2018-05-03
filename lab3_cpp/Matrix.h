@@ -53,7 +53,7 @@ public:
         }
     }
 
-    Matrix operator+(Matrix &a)const{
+    Matrix operator+=(Matrix &a)const{
         assert((row == a.row) && (column == a.column));
         Matrix result(a.row, a.column);
         for(int i = 0; i < row; i++){
@@ -66,13 +66,14 @@ public:
 
     Matrix operator*(Matrix &a)const{
         assert(column == a.row);
-        Matrix result(a.row, a.column);
+        Matrix result(row, a.column);
         for(int i = 0; i < row; i++){
-            for(int j = 0; j < column; j++){
-                result.arr[i][j] = 0;
-                for(int k = 0; k < a.row; k++){
-                    result.arr[i][j] += arr[i][k]*a.arr[k][j];
+            for(int j = 0; j < a.column; j++){
+                int other = 0;
+                for(int k = 0; k < column; k++){
+                    other += arr[i][k]*a.arr[k][j];
                 }
+                result.arr[i][j] = other;
             }
         }
         return  result;
