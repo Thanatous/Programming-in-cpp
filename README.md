@@ -7,7 +7,7 @@
 | Lab 3 |  :white_check_mark:  |    |
 | Lab 4 |  :arrows_counterclockwise:  |    |
 | Lab 5 |  :white_check_mark:   |    |
-| Lab 6 |  :arrows_counterclockwise:  |    |
+| Lab 6 |  :white_check_mark:  |    |
 | Lab 7 |  :arrows_counterclockwise:  |    |
 | Lab 8 |  :arrows_counterclockwise:  |    |
 | Lab 9 |  :arrows_counterclockwise:  |    |
